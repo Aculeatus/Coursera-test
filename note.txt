@@ -1,0 +1,26 @@
+【介绍chrome的一些不为人知的功能】
+https://blog.csdn.net/ij_fantasy/article/details/80652120
+代码格式化
+强制DOM状态
+动画
+直接编辑网页
+网络限速
+复制HTTP请求
+抓个带手机的图
+设置断点
+关于Console中的技巧
+关于console对象
+关于快捷键
+
+【chrome的console来改变html中的JS】
+https://blog.csdn.net/yeqingyun2012/article/details/80346351
+
+
+
+异步加载的JS如何在chrome浏览器断点调试？
+我们常常利用chrome强大的控制台Sources下面进行代码断点调试，但是通过$.getScript等异步加载JS的方式在Sources里面就是找不到，那如何进行debug断点调试呢？
+方案一： 在script代码的头部或者尾部加上//@ sourceURL=xxx.js，然后在(no domain)里面找到它进行调试,如果使用firefox浏览器，直接在debug中就可以找到xxx.js
+方案二： 将js的异步加载换成为同步加载
+第一种方案非常方便。
+
+
